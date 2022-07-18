@@ -1,0 +1,49 @@
+body{
+    
+    background: linear-gradient(#ff9933,#FFFFFF,#138808);
+}
+nav{
+
+   width: 100%;
+   overflow: auto;
+}
+.heading{
+    color: green;
+    background-color: #ff9933;
+}
+.heading2{
+    color: black;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li{
+    float: left;
+}
+nav a{
+    width: 120px;
+    display:block;
+    text-decoration:none;
+    text-align: center;
+    font-size: 17px;
+    color: black;
+    padding: 10px 5px;
+    font-family: Arial;
+}
+footer{
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+}
+footer a{
+    color: white;
+    font-size: 18px;
+}
+footer .name{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer .end{
+    font-size: 20px;
+}
