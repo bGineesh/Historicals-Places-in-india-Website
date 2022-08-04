@@ -1,49 +1,82 @@
-body{
+body {
     height: auto;
-    background: linear-gradient(#ff9933,#FFFFFF,#138808);
-}
-nav{
 
-   width: 100%;
-   overflow: auto;
+    background: linear-gradient(#ff9933, #FFFFFF, #138808);
 }
-.heading{
+
+nav {
+
+    width: 100%;
+    overflow: auto;
+}
+
+li #_head_ {
+    position: relative;
+    left: 400%;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.heading {
     color: green;
-    background-color: #ff9933;
 }
-.heading2{
+
+.heading2 {
     color: black;
 }
-ul{
+
+ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-li{
+
+li {
     float: left;
+    position: relative;
+    right: 11%;
+    font-size: 30px;
 }
-nav a{
+
+li a:hover {
+    background-color: azure;
+    text-decoration: underline;
+}
+
+li a:active {
+    text-decoration: overline;
+
+}
+
+nav a {
     width: 120px;
-    display:block;
-    text-decoration:none;
+    display: block;
+    text-decoration: none;
     text-align: center;
     font-size: 17px;
     color: black;
     padding: 10px 5px;
+    border-radius: 7px;
     font-family: Arial;
+    cursor: pointer;
 }
-footer{
+
+footer {
     text-align: center;
     padding: 5px;
     margin: 10px;
+    align-items: baseline;
 }
-footer a{
+
+footer a {
     color: white;
     font-size: 18px;
 }
-footer .name{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+footer .name {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-footer .end{
+
+footer .end {
     font-size: 20px;
 }
