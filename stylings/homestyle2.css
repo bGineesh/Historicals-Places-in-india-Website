@@ -1,6 +1,6 @@
 #contant {
     width: 1200px;
-    margin: auto;
+    margin: 15px;
     /*overflow: auto;*/
     /*border: 3px solid red;*/
 }
@@ -29,13 +29,13 @@ p {
 
     width: 500px;
 
-    float: left;
+
     /*border: 3px solid red;*/
 }
 
 .border2 img {
     width: 600px;
 
-    float: right;
+
 
 }

@@ -14,7 +14,7 @@ li #_head_ {
     position: relative;
     left: 400%;
     font-size: 30px;
-    text-decoration: underline;
+    text-decoration: dotted;
 }
 
 .heading {
