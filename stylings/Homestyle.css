@@ -1,11 +1,9 @@
 body {
-    height: auto;
-
-    background: linear-gradient(#ff9933, #FFFFFF, #138808);
+    /* height: auto; */
+    background: linear-gradient(140deg, #ff9933, #FFFFFF, #138808);
 }
 
 nav {
-
     width: 100%;
     overflow: auto;
 }
@@ -38,6 +36,22 @@ li {
     font-size: 30px;
 }
 
+nav .home ul li a {
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li:nth-child(4) {
+    position: relative;
+    left: 50%;
+}
+
+nav .home ul li:nth-child(4) a {
+    font-size: 1.7rem;
+}
+
+
 li a:hover {
     background-color: azure;
     text-decoration: underline;
@@ -65,7 +79,11 @@ footer {
     text-align: center;
     padding: 5px;
     margin: 10px;
-    align-items: baseline;
+    font-size: 1.2rem;
+    /* align-items: baseline; */
+    line-height: 1.5rem;
+    word-spacing: 0.25rem;
+    letter-spacing: 0.025rem;
 }
 
 footer a {
@@ -79,4 +97,8 @@ footer .name {
 
 footer .end {
     font-size: 20px;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: rgb(0, 255, 76);
 }
